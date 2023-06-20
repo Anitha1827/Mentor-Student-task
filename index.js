@@ -12,7 +12,7 @@ const mentorStudentRouter= require("./mentorstudentrouter.js");
 //middleware
 app.use(express.json());
 
-app.use("/",mentorStudentRouter);
+app.use("/mentors",mentorStudentRouter);
 
 //starting the server
 app.listen(3000,()=>console.log("server running in localhost:3000"))

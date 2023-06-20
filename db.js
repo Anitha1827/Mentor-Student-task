@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // Connected to MongoDB
- function connectionDB(){
+
 mongoose
   .connect(
     // "mongodb+srv://anithah2711:anitha@cluster0.cfkorlw.mongodb.net/guvi",
@@ -20,5 +20,4 @@ mongoose
   .catch((error) => {
     console.error("Error connecting to MongoDB", error);
   });
-}
-connectionDB();
+
